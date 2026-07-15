@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BGS Institute of Technology - A prestigious engineering college in Karnataka offering UG, PG, and PhD programs">
+    <title>BGSIT - BGS Institute of Technology</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>BGSIT</h1>
+                    <span>Excellence in Education</span>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#programs" class="nav-link">Programs</a></li>
+                    <li><a href="#facilities" class="nav-link">Facilities</a></li>
+                    <li><a href="#placements" class="nav-link">Placements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#admissions" class="btn-primary">Apply Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <h1 class="hero-title animate-fade-in">Igniting Minds with Future-Ready Education</h1>
+                    <p class="hero-subtitle animate-fade-in-delay">BGS Institute of Technology - Where Innovation Meets Excellence</p>
+                    <div class="hero-buttons animate-fade-in-delay-2">
+                        <a href="#programs" class="btn-primary btn-lg">Explore Programs</a>
+                        <a href="#about" class="btn-secondary btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-stats animate-fade-in-delay-3">
+                    <div class="stat-item">
+                        <h3>20+</h3>
+                        <p>Years of Excellence</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Programs Offered</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>NBA</h3>
+                        <p>Accredited</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>21 Acres</h3>
+                        <p>Green Campus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About BGSIT</span>
+                <h2>Welcome to BGS Institute of Technology</h2>
+                <p>A prestigious institution offering world-class education in engineering and technology</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Our Legacy</h3>
+                    <p>Established in 2005, BGSIT is located on a lush 21-acre campus on the Bengaluru-Hassan-Mangaluru National Highway (NH-75). We are strategically positioned, approximately 80 kilometers from major cities like Bengaluru, Mysuru, Mandya, Hassan, and Tumkur.</p>
+                    <p>As a proud member of Sri Adichunchanagiri Shikshana Trust, we are committed to creating tomorrow's engineers through quality education and strong ethical values.</p>
+                    <div class="about-features">
+                        <div class="feature-badge">
+                            <span class="badge-icon">✓</span>
+                            <span>AICTE Approved</span>
+                        </div>
+                        <div class="feature-badge">
+                            <span class="badge-icon">✓</span>
+                            <span>NBA Accredited</span>
+                        </div>
+                        <div class="feature-badge">
+                            <span class="badge-icon">✓</span>
+                            <span>ACU Member</span>
+                        </div>
+                        <div class="feature-badge">
+                            <span class="badge-icon">✓</span>
+                            <span>Govt. of Karnataka</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 400 300" fill="none">
+                            <rect width="400" height="300" fill="#f0f4f8"/>
+                            <path d="M100 150L150 100L200 130L250 90L300 120V250H100V150Z" fill="#3b82f6" opacity="0.2"/>
+                            <circle cx="200" cy="150" r="60" fill="#3b82f6" opacity="0.3"/>
+                            <text x="200" y="160" font-size="16" fill="#1e40af" text-anchor="middle" font-weight="600">Campus View</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Excellence</span>
+                <h2>Choose Your Program</h2>
+                <p>Comprehensive programs designed to shape future leaders in technology</p>
+            </div>
+            
+            <div class="programs-tabs">
+                <button class="tab-btn active" data-tab="ug">UG Programs</button>
+                <button class="tab-btn" data-tab="pg">PG Programs</button>
+                <button class="tab-btn" data-tab="phd">Ph.D Programs</button>
+            </div>
+
+            <div class="programs-content">
+                <!-- UG Programs -->
+                <div class="tab-content active" id="ug">
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-icon">🏗️</div>
+                            <h3>Civil Engineering</h3>
+                            <p>Build the infrastructure of tomorrow with cutting-edge civil engineering principles</p>
+                            <ul class="program-highlights">
+                                <li>Structural Analysis</li>
+                                <li>Environmental Engineering</li>
+                                <li>Transportation Engineering</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">⚙️</div>
+                            <h3>Mechanical Engineering</h3>
+                            <p>Master the art of designing and manufacturing mechanical systems</p>
+                            <ul class="program-highlights">
+                                <li>Thermodynamics</li>
+                                <li>CAD/CAM</li>
+                                <li>Robotics</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">💻</div>
+                            <h3>Computer Science & Engineering</h3>
+                            <p>Dive into software development, algorithms, and computing technologies</p>
+                            <ul class="program-highlights">
+                                <li>Software Engineering</li>
+                                <li>Data Structures</li>
+                                <li>Cloud Computing</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">📡</div>
+                            <h3>Electronics & Communication</h3>
+                            <p>Explore the world of electronics, communications, and signal processing</p>
+                            <ul class="program-highlights">
+                                <li>VLSI Design</li>
+                                <li>Embedded Systems</li>
+                                <li>Wireless Communications</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">🤖</div>
+                            <h3>AI & Machine Learning</h3>
+                            <p>Shape the future with artificial intelligence and machine learning</p>
+                            <ul class="program-highlights">
+                                <li>Deep Learning</li>
+                                <li>Neural Networks</li>
+                                <li>Computer Vision</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">ℹ️</div>
+                            <h3>Information Science</h3>
+                            <p>Bridge the gap between technology and information management</p>
+                            <ul class="program-highlights">
+                                <li>Database Systems</li>
+                                <li>Web Technologies</li>
+                                <li>Information Security</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PG Programs -->
+                <div class="tab-content" id="pg">
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-icon">📊</div>
+                            <h3>M.B.A</h3>
+                            <p>Master business administration with a focus on technology management</p>
+                            <ul class="program-highlights">
+                                <li>Strategic Management</li>
+                                <li>Marketing</li>
+                                <li>Finance & Analytics</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">💻</div>
+                            <h3>M.Tech - Computer Science</h3>
+                            <p>Advanced computing concepts and research methodologies</p>
+                            <ul class="program-highlights">
+                                <li>Advanced Algorithms</li>
+                                <li>AI/ML</li>
+                                <li>Research Projects</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">🔬</div>
+                            <h3>M.Tech - VLSI Design</h3>
+                            <p>Specialize in VLSI design and embedded systems</p>
+                            <ul class="program-highlights">
+                                <li>Chip Design</li>
+                                <li>Embedded Systems</li>
+                                <li>IoT</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">🏗️</div>
+                            <h3>M.Tech - Structural Engineering</h3>
+                            <p>Advanced structural analysis and design techniques</p>
+                            <ul class="program-highlights">
+                                <li>Finite Element Analysis</li>
+                                <li>Earthquake Engineering</li>
+                                <li>Advanced Design</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">⚡</div>
+                            <h3>M.Tech - Nano Technology</h3>
+                            <p>Explore the microscopic world of nanotechnology</p>
+                            <ul class="program-highlights">
+                                <li>Nano Materials</li>
+                                <li>Nano Electronics</li>
+                                <li>Research</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PhD Programs -->
+                <div class="tab-content" id="phd">
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-icon">🎓</div>
+                            <h3>Ph.D - Engineering</h3>
+                            <p>Pursue doctoral research in various engineering disciplines</p>
+                            <ul class="program-highlights">
+                                <li>Civil Engineering</li>
+                                <li>Mechanical Engineering</li>
+                                <li>Computer Science</li>
+                                <li>Electronics & Communication</li>
+                            </ul>
+                        </div>
+                        <div class="program-card">
+                            <div class="program-icon">🔬</div>
+                            <h3>Research Excellence</h3>
+                            <p>State-of-the-art research facilities and expert guidance</p>
+                            <ul class="program-highlights">
+                                <li>Research Labs</li>
+                                <li>Publications</li>
+                                <li>Conferences</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section class="facilities" id="facilities">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">World-Class Infrastructure</span>
+                <h2>Campus Facilities</h2>
+                <p>Modern infrastructure designed for holistic development</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">📚</div>
+                    <h3>Central Library</h3>
+                    <p>Extensive collection of books, journals, and digital resources for comprehensive learning</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🔬</div>
+                    <h3>Advanced Labs</h3>
+                    <p>State-of-the-art laboratories equipped with modern instruments and technology</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🏠</div>
+                    <h3>Hostel Facilities</h3>
+                    <p>Comfortable accommodation with all amenities for both boys and girls</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🚌</div>
+                    <h3>Transportation</h3>
+                    <p>Convenient bus services connecting major cities and nearby areas</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">⚽</div>
+                    <h3>Sports Complex</h3>
+                    <p>Comprehensive sports facilities including indoor and outdoor games</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🍽️</div>
+                    <h3>Cafeteria</h3>
+                    <p>Hygienic canteen serving nutritious and delicious meals</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🎭</div>
+                    <h3>Auditorium</h3>
+                    <p>Modern auditorium for events, seminars, and cultural activities</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">💡</div>
+                    <h3>Innovation Hub</h3>
+                    <p>Dedicated space for students to work on innovative projects and startups</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Placements Section -->
+    <section class="placements" id="placements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career Success</span>
+                <h2>Placements & Recruiters</h2>
+                <p>Strong industry connections ensuring excellent career opportunities</p>
+            </div>
+            <div class="placements-content">
+                <div class="placement-stats">
+                    <div class="stat-card">
+                        <h3>85%+</h3>
+                        <p>Placement Rate</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100+</h3>
+                        <p>Companies</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>12+ LPA</h3>
+                        <p>Highest Package</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>5+ LPA</h3>
+                        <p>Average Package</p>
+                    </div>
+                </div>
+                <div class="recruiters">
+                    <h3>Our Top Recruiters</h3>
+                    <div class="recruiters-grid">
+                        <div class="recruiter-item">TCS</div>
+                        <div class="recruiter-item">Infosys</div>
+                        <div class="recruiter-item">Wipro</div>
+                        <div class="recruiter-item">Accenture</div>
+                        <div class="recruiter-item">Cognizant</div>
+                        <div class="recruiter-item">Tech Mahindra</div>
+                        <div class="recruiter-item">L&T</div>
+                        <div class="recruiter-item">Bosch</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section class="admissions" id="admissions">
+        <div class="container">
+            <div class="admissions-card">
+                <div class="admissions-content">
+                    <span class="section-tag">Join Us</span>
+                    <h2>Admissions 2026-27</h2>
+                    <p>Begin your journey towards excellence. Applications are now open for the upcoming academic year.</p>
+                    <ul class="admissions-list">
+                        <li>✓ Online application process</li>
+                        <li>✓ Merit-based selection</li>
+                        <li>✓ Scholarship opportunities</li>
+                        <li>✓ Easy fee payment options</li>
+                    </ul>
+                    <div class="admissions-buttons">
+                        <a href="#" class="btn-primary btn-lg">Apply Online</a>
+                        <a href="#" class="btn-secondary btn-lg">Download Brochure</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Contact Us</h2>
+                <p>We're here to answer your questions and help you get started</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Address</h3>
+                        <p>BGS Institute of Technology<br>
+                        Sri Adichunchanagiri Kshethra<br>
+                        Nagamangala Taluk, Mandya District<br>
+                        Karnataka 571811</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>+91 9845973725<br>
+                        +91 9886108095</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <h3>Email</h3>
+                        <p>principal@bgsit.ac.in</p>
+                    </div>
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">Facebook</a>
+                            <a href="#" class="social-icon">Instagram</a>
+                            <a href="#" class="social-icon">YouTube</a>
+                            <a href="#" class="social-icon">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Program Interest</option>
+                                <option value="ug">UG Programs</option>
+                                <option value="pg">PG Programs</option>
+                                <option value="phd">Ph.D Programs</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-lg">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BGS Institute of Technology</h3>
+                    <p>Committed to creating tomorrow's engineers through quality education and strong ethical values.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#placements">Placements</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Alumni</a></li>
+                        <li><a href="#">NIRF</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Campus Life</h4>
+                    <ul>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Clubs & Cells</a></li>
+                        <li><a href="#">NSS</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BGS Institute of Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
