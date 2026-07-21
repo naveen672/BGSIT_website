@@ -419,9 +419,64 @@ section {
     box-shadow: var(--shadow-xl);
 }
 
+/* ===== Leadership Section ===== */
+.leadership {
+    background: var(--light-gray);
+}
+
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.leadership-card {
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+    text-align: center;
+}
+
+.leadership-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+}
+
+.leadership-image {
+    width: 100%;
+    padding: 2rem;
+    background: var(--light-gray);
+}
+
+.leadership-image .image-placeholder {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.leadership-info {
+    padding: 1.5rem;
+}
+
+.leadership-info h3 {
+    font-size: 1.25rem;
+    color: var(--dark);
+    margin-bottom: 0.5rem;
+}
+
+.leadership-info .role {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.9375rem;
+}
+
 /* ===== Programs Section ===== */
 .programs {
-    background: var(--light-gray);
+    background: var(--white);
 }
 
 .programs-tabs {
@@ -556,6 +611,70 @@ section {
 .facility-card p {
     color: var(--gray);
     font-size: 0.9375rem;
+}
+
+/* ===== Events Section ===== */
+.events {
+    background: var(--light-gray);
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.event-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.event-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+}
+
+.event-date {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 80px;
+    flex-shrink: 0;
+}
+
+.event-date .month {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.event-date .day {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.event-info h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+}
+
+.event-info p {
+    font-size: 0.9375rem;
+    color: var(--gray);
+    line-height: 1.5;
 }
 
 /* ===== Placements Section ===== */
@@ -904,6 +1023,10 @@ section {
         gap: 2rem;
     }
 
+    .leadership-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .contact-grid {
         grid-template-columns: 1fr;
     }
@@ -969,11 +1092,19 @@ section {
         font-size: 2rem;
     }
 
+    .leadership-grid {
+        grid-template-columns: 1fr;
+    }
+
     .programs-grid {
         grid-template-columns: 1fr;
     }
 
     .facilities-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .events-grid {
         grid-template-columns: 1fr;
     }
 
